@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 ## UI UX
-[](https://github.com/KennySoh/weather-app/blob/master/appimages/ActivityApp.JPG)
+![activityapp](https://github.com/KennySoh/weather-app/blob/master/appimages/ActivityApp.JPG)
 ## Available Scripts
 
 In the project directory, you can run:
