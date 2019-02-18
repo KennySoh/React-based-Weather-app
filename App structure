@@ -1,0 +1,19 @@
+Weather App
+  -ComponentDidMount(http call)
+  -Display
+
+
+
+Layout
+   Header
+      - Scenario 2 ->
+WeatherApp
+  Api call based on Date
+  - input : Date
+  - output: Weather, Temp
+
+Activity Logging
+  - Input: Title, Description, Date
+  - output: Into memory
+  - edit
+  - delete

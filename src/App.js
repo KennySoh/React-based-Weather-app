@@ -1,25 +1,21 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
-
+import Layout from './components/Layout/Layout';
 class App extends Component {
+  state={
+    toggleApp:true
+  }
+
+  handleToggleApp(){
+    this.setState({toggleApp:!this.state.toggleApp});
+    console.log(this.state.toggleApp);
+
+  }
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <div>
+        <Layout handleToggleApp={this.handleToggleApp.bind(this)} toggleApp={this.state.toggleApp}>
+        </Layout>
       </div>
     );
   }
